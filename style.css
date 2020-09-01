@@ -1,0 +1,304 @@
+
+/*======================================
+    BASIC SETUP
+========================================*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*,
+*:before,
+*:after{
+	-webkit-box-sizing:border-box;
+	 box-sizing:border-box;}
+body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    font-family: lato,arial,sans-serif;
+}
+/*======================================
+========================================*/
+
+/*======================================
+            SECTION MAIN
+========================================*/
+.main{
+    background-image:-webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.7)),to(rgba(0, 0, 0, 0.7))), url(img/hero.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    }
+#heading{
+    position: absolute;
+    top: 47%;
+    left: 10%;
+    right: 10%;
+}
+h1{
+ color: #ffffff;
+ font-family: lato,arial,sans-serif;
+}
+#friend:link,
+ #friend:visited{
+     display: inline-block;
+    padding: .7% 5%;
+     margin-bottom: 2%;
+    border-radius: 200px;
+     color:#fff;
+     background-color: #e67e22;
+     font-size: 120%;
+     text-decoration: none;
+     margin-left: 5%;
+ }
+#friend:hover,
+ #friend:active{
+     background-color:#fff;
+     color: #d37828;
+}
+#enemy:link,
+ #enemy:visited{
+     display: inline-block;
+    padding: .7% 5%;
+    border-radius: 200px;
+     color:#e67e22;
+     background-color: transparent;
+     border: 2px solid #e67e22;
+     font-size: 120%;
+     text-decoration: none;
+     margin-left: 5%;
+ }
+#enemy:hover,
+ #enemy:active{
+     background-color:#e67e22;
+     color:#fff;
+}
+#main-but{padding-top: 3%;}
+.navbar{
+    height: 20%;
+    width: 100%;
+}
+.dec:active,
+.dec:hover{
+    border-bottom: 2px solid #e67e22;
+}
+.dec{padding-left: .01%;
+}
+#navtext {
+    text-align: center;
+    color: #fff;
+    font-size:150%;
+    margin-left: 20%;
+}
+
+/*======================================
+========================================*/
+
+/*=======================================
+        Nav
+========================================*/
+#dup-nav-text {
+    color: #e67e22;
+    font-family: sans-serif;
+    font-size: 100%;
+}
+#nav {
+    background-color: #f8f9fa;
+    text-align: center;
+}
+/*======================================
+========================================*/
+
+/*=======================================
+       FEATURES SECTION
+========================================*/
+.features{padding:5% 1%;}
+h2{font-family: Lato,arial,sans-serif;
+font-weight: 300;
+    font-size: 100px;
+color: #6d6e6f;}
+h2:after{
+    display: block;
+    height: 2px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    background-color: #e67e22;
+    content: " ";
+}
+h3{font-family: Lato,arial,sans-serif;
+font-weight: 300;
+    font-size: 100%;
+color: #6d6e6f;}
+
+.feature-intro h2{font-size: 200%;}
+p{font-family: lato,arial,sans-serif;
+font-size: 120%;
+font-weight: 300;}
+.feature-icon{color: #e67e22;
+font-size: 400%;}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+.carousel-item{
+    height:500px;
+    width: auto;
+}
+.gallery{background-color: #ececec;
+padding: 2% 1%;}
+
+/*======================================
+========================================*/
+/*======================================
+          CITIES SECTION
+========================================*/
+.cities{padding: 5% 1%;}
+h4{color:#6d6e6f;
+font-weight: 300;
+font-family: lato,arial,sans-serif;}
+.city-icon{
+    font-size: 25px;
+    color: #e67e22;
+}
+.cities a{color: #e67e22;}
+.cities p{display:inline-block;}
+
+
+/*======================================
+========================================*/
+
+/*======================================
+            TESTIMONIAL SECTION
+========================================*/
+.testimonial{background-image:-webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.7)),to(rgba(0, 0, 0, 0.7))), url(img/back-customers.jpg);background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(img/back-customers.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 5% 1%;
+    }
+.testimonial h2{color: #fff;}
+.testimonial p{color: #fff;
+font-style: italic;}
+.testimonial p:before{
+    content: "\201C";
+    display: block;
+    width:50px;
+    height: auto;
+    color: #fff;
+    font-size: 400%;
+    margin-bottom: -20px;
+}
+cite{
+    font-size: 90%;
+    margin-top: 25px;
+    display: inline-block;
+    color: #fff;
+    
+}
+cite img{
+    height: 50px;
+    width: auto;
+    border-radius: 50%;
+    margin-right: 15px;
+    margin-left: 150px;
+    vertical-align:middle;
+    display: inline-block;
+}
+.testi-info{
+    padding: 5% 10%;
+}
+
+/*======================================
+========================================*/
+
+/*======================================
+========================================*/
+/*======================================
+            SIGN-UP SECTION
+========================================*/
+.sign-up{padding: 5% 1%;
+background-color: #ececec;}
+.sign-up-card{height: 60%;
+width: auto;
+background-color:#fff;
+}
+.sign-up span{color:#e67e22;
+font-size: 200%;}
+.form{padding: 5% 1%;}
+.foot-icon {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+/*======================================
+========================================*/
+
+
+
+/*======================================
+            MEDIA QUERIES
+========================================*/
+
+@media only screen and (max-width:480px){
+    #heading h1{font-size:120%;
+     margin-top: 30%;
+    margin-left:0;
+    padding-right: 0;}
+    #navtext{font-size: 90%;
+    margin: 2% 1%;}
+}

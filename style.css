@@ -301,4 +301,8 @@ font-size: 200%;}
     padding-right: 0;}
     #navtext{font-size: 90%;
     margin: 2% 1%;}
+    .cities img{width: 300px;
+    height: auto;
+    margin-left: 6%;}
+
 }
